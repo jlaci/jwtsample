@@ -1,0 +1,22 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <name>Roche</name>
+
+    <parent>
+    	<groupId>hu.bme.jwtsampleapp</groupId>
+    	<artifactId>parent</artifactId>
+    	<version>1.0</version>
+    </parent>
+    
+
+    <groupId>hu.bme.jwtsampleapp.common</groupId>
+    <artifactId>Common</artifactId>
+
+    <packaging>pom</packaging>
+    
+    <modules>
+    	<module>Entities</module>
+        <module>Security</module>
+    </modules>
+    
+</project>
